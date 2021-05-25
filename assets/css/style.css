@@ -66,3 +66,15 @@ h5 {
     padding-left: 1em;
     color: rgb(255, 255, 255);
 }
+
+/*------------------------------------------------------------------------------Hero img ----------------------------------------------------*/
+
+.hero-img {
+    height: 100vh;
+    background: url("../images/heroimg.jpg") no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
