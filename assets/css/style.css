@@ -88,27 +88,64 @@ h5 {
     background-size: cover;
 }
 
+/*---------------------------------------------------------------------------------Intro text---------------------------------------------*/
+
+.intro-text {
+    max-width: 740px;
+    max-height: 300px;
+    overflow: hidden;
+    position: absolute;
+    top: 150px;
+    left: 0; 
+    right: 0;
+    margin: auto;
+    background: rgba(5, 5, 5, 0.514);
+    border: 2px solid rgba(237, 65, 11, 0.3);
+    
+  }
+
+.intro-text h1 {
+    font-size: 250%;
+    padding: 10px 10px 0;
+}
+
+.intro-text p {
+    font-size: large;
+    padding: 5px 10px;
+    margin: 0;
+    display: inline-block;
+}
+
+.blockquote-footer {
+    padding: 5px 0;
+    margin-left: 0.5rem;
+    color: #ED410B;
+}
 
 
 
 /*----------------------------------------------------------------Media queries -------------------------------------------------------------------*/
 
-@media screen and (max-width: 576px) and (orientation: portrait) {
+
+@media screen and (max-width: 500px) and (orientation: portrait) {
     .hero-img {
         height: 365px;
     }
 
     .intro-text {
-        max-width: 55%;
+        max-width: 60%;
         max-height: 250px;
         overflow: hidden;
         position: absolute;
-        left: 25px;
         top: 100px;
+        margin-left: 25px;
+        background: transparent;
+        border: none;
     }
 
     .intro-text h1 {
         font-size: 150%;
+        padding: 0;
     }
 
     .intro-text p {
@@ -116,5 +153,36 @@ h5 {
         padding: 0;
         margin: 0;
         display: inline-block;
+    }
+}
+
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    .intro-text {
+        max-width: 60%;
+        max-height: 250px;
+        overflow: hidden;
+        position: absolute;
+        top: 100px;
+        margin-left: 25px;
+        background: transparent;
+        border: none;
+    }
+
+    .intro-text h1 {
+        font-size: 150%;
+        padding: 0;
+    }
+
+    .intro-text p {
+        font-size: small;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 750px) {
+    .intro-text {
+        max-width: 90%;
     }
 }
