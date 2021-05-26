@@ -258,8 +258,17 @@ h5 {
     color: #ED410B;
 }
 
+/*------------------------------------------------------------------------Gallery-----------------------------------------------------------------*/
 
+.gallery {
+    background: url("../images/gallery-bg.jpg") no-repeat center center fixed;
 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
 
 /*----------------------------------------------------------------Media queries -------------------------------------------------------------------*/
 
