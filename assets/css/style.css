@@ -380,12 +380,6 @@ h5 {
     }
 }
 
-@media screen and (min-width: 1250px){
-    .wrapper {
-        max-width: 1250px;
-        margin: auto;
-    }
-}
 
 @media only screen and (max-width: 576px) {
     #photos {
@@ -396,5 +390,20 @@ h5 {
 @media only screen and (min-width: 576px) and (max-width: 992px) {
     #photos {
         column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .contact-us {
+        max-width: 50%;
+        margin: 0 auto;
+        min-height: 250px;
+    }
+}
+
+@media screen and (min-width: 1250px){
+    .wrapper {
+        max-width: 1250px;
+        margin: auto;
     }
 }
