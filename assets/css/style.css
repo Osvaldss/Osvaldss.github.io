@@ -291,6 +291,22 @@ h5 {
     background-color: rgba(1, 2, 4, 0.8)
 }
 
+.form-control {
+    background-color: rgba(0, 0, 0, 0.34);
+    border-radius: 0;
+    border: none;
+    color: #fff;
+    margin: 0.5em 0;
+    padding: 0.5em 1.5em;
+}
+
+.form-control:focus {
+    background-color: rgba(0, 0, 0, 0.34);
+    color: #fff;
+}
+
+
+
 /*----------------------------------------------------------------Media queries -------------------------------------------------------------------*/
 
 
