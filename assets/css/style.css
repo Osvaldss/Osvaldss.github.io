@@ -11,6 +11,11 @@ body {
     text-transform: uppercase;
 }
 
+.highlight-text {
+    font-weight: bold;
+    color: #ED410B;
+}
+
 /*-------------------------------------------------------------------------Headings------------------------------------------------------------*/
 
 h1,
@@ -171,6 +176,25 @@ h5 {
 .cont a:target {
     text-decoration: none;
     color: #ED410B;
+}
+
+/*-------------------------------------------------------------------------------------------media service links ------------------------------------------*/
+
+.media-library-links li {
+    padding: 0 15px 0;
+}
+
+.media-library-links a {
+    color: rgb(200, 200, 200);
+
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.media-library-links li a:hover {
+    color: #e84610;
 }
 
 
