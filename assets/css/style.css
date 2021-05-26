@@ -179,13 +179,15 @@ h5 {
     color: #ED410B;
 }
 
-/*-------------------------------------------------------------------------------------------media service links ------------------------------------------*/
+/*-------------------------------------------------------------------------------------------media service / social media links ------------------------------------------*/
 
-.media-library-links li {
+.media-library-links li,
+.social-media-links li {
     padding: 0 15px 0;
 }
 
-.media-library-links a {
+.media-library-links a,
+.social-media-links a {
     color: rgb(200, 200, 200);
 
     transition: all 0.35s ease-in-out;
@@ -194,7 +196,8 @@ h5 {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.media-library-links li a:hover {
+.media-library-links li a:hover,
+.social-media-links li a:hover {
     color: #e84610;
 }
 
