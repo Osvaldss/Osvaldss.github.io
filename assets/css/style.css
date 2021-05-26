@@ -148,8 +148,30 @@ h5 {
     color: white;
 }
 
+/*------------------------------------------------------------------------------New Releases-----------------------------------------------------*/
+.new-release {
+    background-color: rgba( 31, 30, 30, 0.84);
+}
 
+.news-wrapper {
+    width: 90vw;
+    margin: auto;
+}
 
+.album-size {
+    max-width: 300px;
+}
+
+.cont a {
+    color: white;
+}
+
+.cont a:focus,
+.cont a:hover,
+.cont a:target {
+    text-decoration: none;
+    color: #ED410B;
+}
 
 
 /*----------------------------------------------------------------Media queries -------------------------------------------------------------------*/
@@ -212,5 +234,12 @@ h5 {
 @media screen and (min-width: 500px) and (max-width: 750px) {
     .intro-text {
         max-width: 90%;
+    }
+}
+
+@media screen and (min-width: 1250px){
+    .cont {
+        max-width: 1250px;
+        margin: auto;
     }
 }
