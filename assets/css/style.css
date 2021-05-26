@@ -143,7 +143,8 @@ h5 {
     color: #ED410B;
 }
 
-.btn-newsletter {
+.btn-newsletter,
+.contact-form-btn {
     padding: 5px 15px;
     background-color: #ED410B;
     border: none;
@@ -154,7 +155,10 @@ h5 {
 
 .btn-newsletter:target,
 .btn-newsletter:focus,
-.btn-newsletter:hover {
+.btn-newsletter:hover,
+.contact-form-btn:target,
+.contact-form-btn:focus,
+.contact-form-btn:hover {
     background-color: darkgray;
     color: white;
 }
@@ -303,6 +307,12 @@ h5 {
 .form-control:focus {
     background-color: rgba(0, 0, 0, 0.34);
     color: #fff;
+}
+
+.contact-form-btn {
+    border-radius: 0;
+    border: none;
+    background-color: #ED410B;
 }
 
 
