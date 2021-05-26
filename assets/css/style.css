@@ -267,7 +267,19 @@ h5 {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
 
+#photos {
+    margin: auto;
+    clear: none;
+    column-count: 3;
+    column-gap: 2px;
+}
+
+#photos img {
+    margin: 2px 0;
+    width: 100%;
+    border: 2px solid #fff;
 }
 
 /*----------------------------------------------------------------Media queries -------------------------------------------------------------------*/
