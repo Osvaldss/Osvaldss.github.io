@@ -16,6 +16,12 @@ body {
     color: #ED410B;
 }
 
+.wrapper {
+    width: 90vw;
+    margin: auto;
+}
+
+
 /*-------------------------------------------------------------------------Headings------------------------------------------------------------*/
 
 h1,
@@ -158,11 +164,6 @@ h5 {
     background-color: rgba( 31, 30, 30, 0.84);
 }
 
-.news-wrapper {
-    width: 90vw;
-    margin: auto;
-}
-
 .album-size {
     max-width: 300px;
 }
@@ -195,6 +196,23 @@ h5 {
 
 .media-library-links li a:hover {
     color: #e84610;
+}
+
+/*-----------------------------------------------------------------------------Bio--------------------------------------------------------*/
+
+.bio {
+    background: url("../images/bio-bg-img.jpg") no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bio-img {
+    width: 300px;
+    height: auto;
+    max-height: 200px;
 }
 
 
