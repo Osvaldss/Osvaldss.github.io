@@ -294,6 +294,9 @@ h5 {
 .contacts {
     background-color: rgba(1, 2, 4, 0.8)
 }
+.contact-us {
+    padding-top: 30px;
+}
 
 .form-control {
     background-color: rgba(0, 0, 0, 0.34);
@@ -393,7 +396,7 @@ h5 {
     }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 768px) {
     .contact-us {
         max-width: 50%;
         margin: 0 auto;
