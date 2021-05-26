@@ -21,6 +21,16 @@ h5 {
     font-family: "Righteous", sans-serif;
 }
 
+/*----------------------------------------------------------------------------------Break line--------------------------------------------------*/
+
+.break-line {
+    margin: 0 auto 30px;
+    width: 150px;
+    background-color: #ED410B;
+    height: 2px;
+    border: none;
+}
+
 /*--------------------------------------------------------------------------------------Nav------------------------------------------------------------*/
 
 .nav-container {
@@ -92,7 +102,7 @@ h5 {
 
 .intro-text {
     max-width: 740px;
-    max-height: 300px;
+    max-height:400px;
     overflow: hidden;
     position: absolute;
     top: 150px;
@@ -122,9 +132,23 @@ h5 {
     color: #ED410B;
 }
 
-.btn {
-    margin: 0 auto;
+.btn-news {
+    padding: 5px 15px;
+    background-color: #ED410B;
+    border: none;
+    color: white;
+    border-radius: 0;
+
 }
+
+.btn-news:target,
+.btn-news:focus,
+.btn-news:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+
 
 
 
