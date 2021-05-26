@@ -143,7 +143,7 @@ h5 {
     color: #ED410B;
 }
 
-.btn-news {
+.btn-newsletter {
     padding: 5px 15px;
     background-color: #ED410B;
     border: none;
@@ -152,9 +152,9 @@ h5 {
 
 }
 
-.btn-news:target,
-.btn-news:focus,
-.btn-news:hover {
+.btn-newsletter:target,
+.btn-newsletter:focus,
+.btn-newsletter:hover {
     background-color: darkgray;
     color: white;
 }
@@ -220,6 +220,45 @@ h5 {
 .events {
     background-color: rgba(1, 2, 4, 0.8)
 } 
+
+.card {
+    border: 2px solid #fff;
+    border-radius: 0;
+    color: rgb(51, 51, 51);
+}
+
+.card-body a {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.card-body a:focus,
+.card-body a:target,
+.card-body a:hover {
+    color: #ED410B;
+    text-decoration: underline;
+}
+
+.link-upcoming-events {
+    font-size: large;
+    color: #fff;
+    padding: 2px 4px;
+}
+
+.link-upcoming-events:focus,
+.link-upcoming-events:target,
+.link-upcoming-events:hover {
+    text-decoration: none;
+    border: 2px solid #ED410B;
+    color: #ED410B;
+}
+
+
 
 
 /*----------------------------------------------------------------Media queries -------------------------------------------------------------------*/
