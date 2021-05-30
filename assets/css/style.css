@@ -124,7 +124,7 @@ h5 {
     background: rgba(5, 5, 5, 0.514);
     border: 2px solid rgba(237, 65, 11, 0.3);
     text-align: center;
-  }
+}
 
 .intro-text h1 {
     font-size: 250%;
@@ -229,7 +229,7 @@ h5 {
 
 .events {
     background-color: rgba(1, 2, 4, 0.8)
-} 
+}
 
 .card {
     border: 2px solid #fff;
@@ -297,6 +297,7 @@ h5 {
 .contacts {
     background-color: rgba(1, 2, 4, 0.8)
 }
+
 .contact-us {
     padding-top: 30px;
 }
@@ -381,7 +382,7 @@ h5 {
 
     .intro-text {
         max-width: 60%;
-        max-height:400px;
+        max-height: 400px;
         overflow: hidden;
         position: absolute;
         top: 80px;
@@ -433,7 +434,7 @@ h5 {
     }
 }
 
-@media screen and (min-width: 1250px){
+@media screen and (min-width: 1250px) {
     .wrapper {
         max-width: 1250px;
         margin: auto;
