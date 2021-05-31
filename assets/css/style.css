@@ -301,6 +301,7 @@ h5 {
 #photos img {
     margin: 2px 0;
     width: 100%;
+    height: auto;
     border: 2px solid #fff;
 }
 
