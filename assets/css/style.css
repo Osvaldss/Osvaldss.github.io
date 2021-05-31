@@ -232,7 +232,7 @@ h5 {
 }
 
 .bio-img {
-    width: 300px;
+    max-width: 600px;
     height: auto;
     max-height: 200px;
 }
