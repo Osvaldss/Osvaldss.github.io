@@ -300,7 +300,6 @@ h5 {
 .link-upcoming-events:target,
 .link-upcoming-events:hover {
     text-decoration: none;
-    border: 2px solid #ED410B;
     color: #ED410B;
 }
 
