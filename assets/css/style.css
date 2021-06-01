@@ -221,6 +221,7 @@ h5 {
     color: #ED410B;
 }
 
+
 /*-------------------------------------------------------------------------------------------media service / social media links ------------------------------------------*/
 
 .media-library-links li,
@@ -366,6 +367,26 @@ h5 {
 
 
 /*----------------------------------------------------------------Media queries -------------------------------------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+    .video-cont-responsive,
+    .video-cont-responsive iframe {
+        min-width: 250px;
+        max-width: 560px;
+        min-height: 155px;
+        max-height: 315px;
+
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .video-cont-responsive,
+    .video-cont-responsive iframe {
+        min-width: 450px;
+        max-width: 560px;
+        max-height: 315px;
+    }
+}
 
 
 @media screen and (max-width: 500px) and (orientation: portrait) {
