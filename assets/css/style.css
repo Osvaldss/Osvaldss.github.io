@@ -335,10 +335,10 @@ h5 {
     background-color: rgba(1, 2, 4, 0.8)
 }
 
-.contact-info,
+/* .contact-info,
 .contact-info-details {
     min-width: 300px; 
-}
+} */
 
 .contact-info-details {
     max-width: 300px; 
