@@ -124,7 +124,7 @@
             <div class="media-library">
                 <div class="row g-0">
                     <div class="col-12 mt-2">
-                        <p class="fs-6 text-center mb-2 highlight-text">You can find our latest songs on:</p>
+                        <p class="fs-6 text-center my-2 highlight-text">You can find our latest songs on:</p>
                     </div>
                     <div class="col d-flex justify-content-center">
                         <ul class="list-inline media-library-links">
@@ -313,7 +313,7 @@
 
                 </div>
             </div>
-            <p class="text-center highlight-text">If you have any other queries about our events please
+            <p class="text-center highlight-text mt-3">If you have any other queries about our upcoming events please
                 <span class="d-inline-block"><a href="#contacts" class="link-upcoming-events">Contact Us</a></span>
             </p>
         </div>
@@ -354,11 +354,11 @@
                     <div class="col contact-info-details">
                         <p class="fs-6 fw-bold py-1 pe-1 ps-0 mb-0 uppercase text-decoration-underline">Our contact
                             details:</p>
-                        <p><i class="fas fa-home fs-5 py-1 pe-1 ps-0 highlight-text"></i> Basanavicius st. 41,
+                        <p><i class="fas fa-map-marker-alt fs-5 py-1 pe-1 ps-0 highlight-text"></i> Basanavicius st. 41,
                             Vilnius</p>
                         <p><i class="fas fa-phone-alt fs-5 py-1 pe-1 ps-0 highlight-text"></i> +(370) 555 55 555</p>
                         <p><i class="fas fa-envelope fs-5 py-1 pe-1 ps-0 highlight-text"></i>
-                            LilasandInnomine@gmail.com</p>
+                            <a href="mailto:LilasandInnomine@example.com">LilasandInnomine@example.com</a></p>
                         <p class="fs-6 mb-2 fs-6 fw-bold uppercase text-decoration-underline">Follow us on:</p>
                         <ul class=" list-inline social-media-links">
                             <li class="list-inline-item fs-2 ps-0 ms-0">
@@ -404,10 +404,11 @@
                                     aria-label="Your full name" placeholder="Your Name*" required>
                                 <input type="email" name="email" id="emailaddress" aria-label="Your email address"
                                     class="form-control" placeholder="Email*" required>
-                                <input type="tel" name="number" id="mobilenumber" aria-label="Your phone number"
-                                    class="form-control" placeholder="Phone">
+                                <input type="tel" name="phone" id="mobilenumber" aria-label="Your phone number"
+                                    class="form-control" placeholder="370-12345678"
+                                    pattern="[0-9]{3}-[0-9]{8}">
                                 <textarea name="message" id="custmessage" rows="5" class="form-control"
-                                    placeholder="Your message*" aria-label="Your qqueries for us" required></textarea>
+                                    placeholder="Your message*" aria-label="Your queries for us" required></textarea>
                                 <div class="form-row pt-2 text-center">
                                     <div class="col">
                                         <button type="submit" class="btn contact-form-btn">Send Message</button>
