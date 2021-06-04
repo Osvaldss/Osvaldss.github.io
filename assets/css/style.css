@@ -8,8 +8,6 @@ body {
 
     /* hide scrollbar but allow scrolling ------https://blog.hubspot.com/website/hide-scrollbar-css----- */
     -ms-overflow-style: none;
-    /* for Internet Explorer, Edge */
-    scrollbar-width: none;
     /* for Firefox */
     overflow-y: scroll;
 }
@@ -54,8 +52,6 @@ h5 {
     height: 2px;
     border: none;
 }
-
-
 
 /*------------------------------------------------------------------------------------pop up forms --------------------------------------------------*/
 .modal-header {
@@ -120,7 +116,7 @@ h5 {
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 2rem;
+    padding-right: 1rem;
 }
 
 .navbar .navbar-toggler {
@@ -193,6 +189,8 @@ h5 {
     color: #ED410B;
 }
 
+/*-------------------------------------------------------------------call to action btn styling -------------------------------------------*/
+
 .btn-newsletter,
 .contact-form-btn {
     padding: 5px 15px;
@@ -232,7 +230,6 @@ h5 {
     text-decoration: none;
     color: #ED410B;
 }
-
 
 /*-------------------------------------------------------------------------------------------media service / social media links ------------------------------------------*/
 
@@ -392,8 +389,6 @@ h5 {
     border: none;
     background-color: #ED410B;
 }
-
-
 
 /*----------------------------------------------------------------Media queries -------------------------------------------------------------------*/
 
