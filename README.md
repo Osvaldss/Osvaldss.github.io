@@ -77,7 +77,7 @@ This landing page is for current and potential "Lilas and Innomine" band fans. T
 - ### Frameworks, Libraries & Programs Used
 
     1. [Bootstrap 5.0:](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-        - Bootstrap was used to assist with the responsiveness and styling of the website.
+        - Bootstrap was used to assist with the responsiveness, for a grid system, to add components and to style them.
     2. [Google Fonts](https://fonts.google.com/)
         - Google fonts were used to import the 'Raleway' and 'Righteous' fonts into the style.css file which is used on all pages throughout the project.
     3. [Font Awesome](https://fontawesome.com/)
@@ -89,18 +89,16 @@ This landing page is for current and potential "Lilas and Innomine" band fans. T
     6. [Hubspot](https://blog.hubspot.com/website/hide-scrollbar-css)
         - Add code into style.css to hide scrollbar from page to make viewport more aesthetic.
     7. [CodePen](https://codepen.io/)
-        - Web application to test code snippets.
+        - Web application to test code snipets.
     8. [Git](https://git-scm.com/)
         - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
     9. [GitHub:](https://github.com/)
         - GitHub is used to store the projects code after being pushed from Git.
-    10. [Pinterest](https://www.pinterest.se/fromupnorth/web-design/)
-        - Used to get inspiration to create a landing page layout.
-    11. [Adobe-Affinity](https://affinity.serif.com/en-gb/photo/)
+    10. [Adobe-Affinity](https://affinity.serif.com/en-gb/photo/)
         - Used to style logo, edit pohtos and resize images for webpages.
-    12. [Eagleget](https://eagle.cool/)
+    11. [Eagleget](https://eagle.cool/)
         - Image managing extension for browsers. Makes easy to sort huge amount images used for creating webpage.
-    13. [Figma](https://www.figma.com/)
+    12. [Figma](https://www.figma.com/)
         - Used to create a wireframe / layout for a web page.
     
 ## Testing
@@ -184,6 +182,38 @@ This landing page is for current and potential "Lilas and Innomine" band fans. T
     - While scrolling through a page on a mobile device or tablet the background images adjust itself / move.
 
 ## Deployment
+
+
+
+## Credits
+
+- ### Code
+
+    - [Bootstrap 5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Bootstrap was used to assist with the responsiveness, for a grid system, to add components and to style them.
+    - [w3schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top) Embed a javascript code from w3school to make back to top button.
+    - [Hubspot](https://blog.hubspot.com/website/hide-scrollbar-css) Add code into style.css to hide scrollbar from page to make viewport more aesthetic.
+    - [StackOverflow post](https://stackoverflow.com) Css style for a fixed background image on a page and for hover/focus transition animation.
+
+- ### Content
+
+    - [Music quotes](https://www.keepinspiring.me/music-quotes/)
+    - Biography content was taken form [Wikipedia](https://lt.wikipedia.org/wiki/Lilas_ir_Innomine)
+    - Content used for the upcoming event section and contact details information isn't accurate and were written by the developer. 
+
+- ### Media
+
+    - Logo image copied from [Official Lilas and Innomine web page](https://lilasirinnomine.lt/#1)
+    - Hero image and all other images related to the band were copied from [Google images](https://www.google.com/search?q=lilo+and+innomine&tbm=isch&hl=en&sa=X&ved=2ahUKEwiFrPHCo__wAhXGWMAKHUM-C0UQBXoECAEQNg&biw=1903&bih=937) with [Eagleget](https://eagle.cool/) browser extension.
+    - Music video linked from [Youtube](https://www.youtube.com/watch?v=Ma3lC6aVk90&ab_channel=LilasirInnomine)
+    - Music album covers copied from [Discogs](https://www.discogs.com/Lilas-Ir-Innomine-Viskas/release/14926460/image/SW1hZ2U6NDUwMDA4OTM=)
+
+- ### Acknowledgements
+
+    - Code Institute
+    - My Mentor for help regarding my queries.
+    - Slack community
+    - [Pinterest](https://www.pinterest.se/fromupnorth/web-design/) Used to get inspiration to create a landing page layout.
+
 
 
 
