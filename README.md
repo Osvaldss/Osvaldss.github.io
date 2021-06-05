@@ -54,12 +54,12 @@ This landing page is for current and potential "Lilas and Innomine" band fans. T
         - On page right bottom side there is a button to go back to top, displayed after user scroll down page 400px.
 
     - Page divided into six sections
-        - Landing page "hero image" is focused on giving the impression of what page content is about. It has call out text and call to action button to subscirbe for latest band news.
-        - The New releases section is to provide users/fans with the latest band news (Latest songs/albums and music videos).
-        - The Biography article is to give short summary about the band.
-        - The Events section have information about upcoming events and link to book a ticket (Location, date and price).
-        - The Gallery section showcases the bands' activities. It will provide the user with supporting images to see what the band's events look like before participating in them.
-        - The contact section provides bands' contact details followed by social media links. A section has a form for users to fill in if they have any queries.
+        - Landing page "hero image" is focused on giving the impression of what page content is about. It has call out text and call to action button to subscirbe for latest band news. [Hero-img](assets/testing-user-stories/page-top-section.png)
+        - The New releases section is to provide users/fans with the latest band news (Latest songs/albums and music videos).[News section](assets/testing-user-stories/new-releases.png)
+        - The Biography article is to give short summary about the band. [Bio](assets/testing-user-stories/biography.png)
+        - The Events section have information about upcoming events and link to book a ticket (Location, date and price). [Events section](assets/testing-user-stories/events-section.png)
+        - The Gallery section showcases the bands' activities. It will provide the user with supporting images to see what the band's events look like before participating in them. [Gallery](assets/testing-user-stories/gallery.png)
+        - The contact section provides bands' contact details followed by social media links. A section has a form for users to fill in if they have any queries. [Contacts](assets/testing-user-stories/contact-us-section.png)
 
 - ### Features to Implement
     - A music player with the bands newest album/song list.
@@ -114,8 +114,7 @@ This landing page is for current and potential "Lilas and Innomine" band fans. T
 
         1.  As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the band. 
             1. Upon entering the site, users are automatically greeted with navigation bar, that contains all the sections of the page.
-            2. Underneath there is one of the bands singers profile pictures as a hero image thats gives user a sense what is this web page about.
-            3. [Preview](assets/testing-user-stories/page-top-section.png)
+            2. Underneath there is one of the bands singers profile pictures as a hero image thats gives user a sense what is this web page about. [Preview](assets/testing-user-stories/page-top-section.png)
         
         2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
             1. At the top of each page there is a navigation bar, each link name describes the sections content of the page. [Navigation on medium and bigger screens](assets/testing-user-stories/nav-bar-desk.png), [Navigation on mobile devices](assets/testing-user-stories/nav-bar-mobile.png)
