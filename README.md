@@ -40,9 +40,9 @@ This landing page is for current and potential "Lilas and Innomine" band fans. T
 
 - ### Wireframes
 
-    - Lading page desktop wireframe - [View](https://github.com/)
+    - Landing page desktop wireframe - [View](assets/testing-user-stories/desktop-wireframe.png)
 
-    - Landing page mobile wireframe - [View](https://github.com/)
+    - Landing page mobile wireframe - [View](assets/testing-user-stories/mobile-wireframe.jpg)
 
 ## Features
 
