@@ -6,7 +6,7 @@ body {
     font-family: "Raleway", sans-serif;
     color: white;
 
-    /* hide scrollbar but allow scrolling ------https://blog.hubspot.com/website/hide-scrollbar-css----- */
+    /* hide scrollbar but allow scrolling ------hubspot.com--- */
     -ms-overflow-style: none;
     /* for Firefox */
     overflow-y: scroll;
@@ -30,7 +30,6 @@ body::-webkit-scrollbar {
     width: 90vw;
     margin: auto;
 }
-
 
 /*-------------------------------------------------------------------------Headings------------------------------------------------------------*/
 
